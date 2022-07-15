@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    font-family: Playfair Display,serif!important;
+    box-sizing: border-box;
+}
+
+a, a:visited{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+main, section, aside, header, footer, div, nav, article{
+    display: flex;
+    flex-wrap: wrap;
+}
+h3{
+    font-size: 30px;
+    color: rgb(106, 106, 106);
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 32px; 
+}
+h4{
+    font-size: 22px;
+    color: rgb(106, 106, 106);
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 32px;
+}
+p{
+    font-family: Lato,sans-serif!important;
+    color: rgb(106, 106, 106)!important;
+}
+::placeholder{
+    font-size: 16px;
+    font-family: Lato,sans-serif!important;
+    color: rgb(155, 155, 155)!important;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.5em;
+    padding: 20pxpx 2px;
+}
+input, select{
+    border: none;
+    border-radius: 4px;
+    font-family: Lato,sans-serif!important;
+    color: rgb(172, 172, 172)!important;
+}
